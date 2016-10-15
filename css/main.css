@@ -2,15 +2,13 @@
 body {
   background-color: #fff;
   width: 100%;
+  margin: 0 auto;
 }
 
 .content {
     width: 90%;
-    margin: 0 auto;
-    position: relative;
-    top: 90px;
+    margin: 10px auto;
     display: block;
-    left: 0px;
 }
 
 p {
@@ -23,30 +21,39 @@ p {
 }
 
 header {
-  background-color: #fff;
-  padding: 20px;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  margin-bottom: 10px;
+  padding: 5px;
+  margin: 10px auto;
+  width: 90%;
 }
 
 header .searchbox {
-  width: 33.33%;
-  margin: 0 auto;
-  text-align: center;
+  margin: 5% auto;
+  text-align: left;
+  padding: 5px;
+  width: 80%;
+  border: 1px solid lightgrey;
 }
 
 footer {
-  
+  width: 100%;
+  margin: 0 auto;
+}
+
+footer p {
+  text-align: center;
 }
 
 .gallery {
-
+  width: 90%;
+  margin: 10px auto;
 }
 
-.gallery-item img {
-  padding: 30px;
+.gallery-item {
+  width: 95%;
+  margin: 15px auto;
+}
 
+.gallery img {
+  margin: 20px 2.5%;
+  width: 95%;
 }
