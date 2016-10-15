@@ -31,7 +31,8 @@ header .searchbox {
   text-align: left;
   padding: 5px;
   width: 80%;
-  border: 1px solid lightgrey;
+  border: 3px solid #f6f6f6;
+  border-radius: 5px;
 }
 
 footer {
@@ -59,7 +60,35 @@ footer p {
 }
 
 
-/* >>>>>>>>>>>  BEGIN MEDIA QUERY SECTION <<<<<<<<< */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+lightbox CSS
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+#lightbox {
+  border: 10px solid red;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.81);
+  position: fixed;
+  top: 0px;
+}
+
+#lightbox img {
+  border: solid 3px green;
+  padding: 20px;
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  width: 50%;
+}
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+ BEGIN MEDIA QUERY SECTION
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
 @media (min-width: 768px) {
 
@@ -84,7 +113,9 @@ footer p {
   }
 header .searchbox {
   width: 460px;
-  font-size: 16;
+  padding: 5px;
+  margin: 5px auto;
+  font-size: 16px;
 }
 
 }
