@@ -34,6 +34,8 @@ $('#lightbox').click( function () {
 
 });
 
+// navigation functionality
+
 
   //2.1 an image
   //2.2 a caption
